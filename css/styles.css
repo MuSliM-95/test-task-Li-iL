@@ -1,0 +1,20 @@
+body {
+  margin: 20px;
+}
+
+.defolt {
+    cursor: pointer;
+}
+
+
+
+.defolt::before {
+  content: "•";
+  margin-right: 10px;
+  display: inline-block; 
+  transform: rotate(-90deg);
+}
+
+.right {
+  margin-left: 15px;
+}
